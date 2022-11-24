@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import AccountCardComponent from "./AccountCardComponent";
-import GridItem from "core/components/Grid/GridItem.jsx";
-import GridContainer from "core/components/Grid/GridContainer.jsx";
+import GridItem from "../../../core/components/Grid/GridItem.jsx";
+import GridContainer from "../../../core/components/Grid/GridContainer.jsx";
 import "./css/segments.css";
 import axios from "axios";
-import { config } from "settings/envconfig.js";
+import { config } from "../../../settings/envconfig.js";
 import CircularProgress from "@material-ui/core/CircularProgress";
 
 class Segments extends React.Component {

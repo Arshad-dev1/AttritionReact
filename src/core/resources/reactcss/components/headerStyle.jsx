@@ -7,7 +7,7 @@ import {
   successColor,
   warningColor,
   dangerColor
-} from "core/resources/reactcss/appContainerStyle.jsx";
+} from "../appContainerStyle.jsx";
 
 const headerStyle = theme => ({
   appBar: {

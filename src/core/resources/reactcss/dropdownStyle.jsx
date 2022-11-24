@@ -2,7 +2,7 @@ import {
   primaryColor,
   primaryBoxShadow,
   defaultFont
-} from "core/resources/reactcss/appContainerStyle.jsx";
+} from "./appContainerStyle.jsx";
 
 const dropdownStyle = theme => ({
   buttonLink: {

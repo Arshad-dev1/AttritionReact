@@ -3,7 +3,7 @@ import {
   dangerColor,
   successColor,
   defaultFont
-} from "core/resources/reactcss/appContainerStyle.jsx";
+} from "./appContainerStyle.jsx";
 
 const customInputStyle = {
   disabled: {

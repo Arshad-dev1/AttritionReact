@@ -2,7 +2,7 @@ import {
   drawerWidth,
   transition,
   container
-} from "core/resources/reactcss/appContainerStyle.jsx";
+} from "../appContainerStyle.jsx";
 
 const appStyle = theme => ({
   wrapper: {

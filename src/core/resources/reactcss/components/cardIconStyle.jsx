@@ -5,7 +5,7 @@ import {
   infoCardHeader,
   primaryCardHeader,
   roseCardHeader
-} from "core/resources/reactcss/appContainerStyle.jsx";
+} from "../appContainerStyle.jsx";
 const cardIconStyle = {
   cardIcon: {
     "&$warningCardHeader,&$successCardHeader,&$dangerCardHeader,&$infoCardHeader,&$primaryCardHeader,&$roseCardHeader": {

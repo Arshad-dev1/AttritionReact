@@ -7,7 +7,7 @@ import {
   roseColor,
   grayColor,
   defaultFont
-} from "core/resources/reactcss/appContainerStyle.jsx";
+} from "./appContainerStyle.jsx";
 
 const tableStyle = theme => ({
   warningTableHeader: {

@@ -8,7 +8,7 @@ import IconButton from "@material-ui/core/IconButton";
 // @material-ui/icons
 import Close from "@material-ui/icons/Close";
 // core components
-import snackbarContentStyle from "core/resources/reactcss/components/snackbarContentStyle.jsx";
+import snackbarContentStyle from "../../resources/reactcss/components/snackbarContentStyle";
 
 const Snackbar = ({ ...props }) => {
   const { classes, message, color, close, icon, place, open } = props;

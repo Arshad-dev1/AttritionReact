@@ -6,7 +6,7 @@ import {
   warningColor,
   dangerColor,
   roseColor
-} from "core/resources/reactcss/appContainerStyle.jsx";
+} from "../appContainerStyle.jsx";
 
 const buttonStyle = {
   button: {

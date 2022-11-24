@@ -3,7 +3,7 @@ import {
   dangerColor,
   infoColor,
   warningColor
-} from "core/resources/reactcss/appContainerStyle.jsx";
+} from "../appContainerStyle.jsx";
 import red from "@material-ui/core/colors/red";
 import grey from "@material-ui/core/colors/grey";
 import "react-circular-progressbar/dist/styles.css";

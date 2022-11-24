@@ -2,7 +2,7 @@ import {
   defaultFont,
   container,
   primaryColor
-} from "core/resources/reactcss/appContainerStyle.jsx";
+} from "../appContainerStyle.jsx";
 
 const footerStyle = {
   block: {

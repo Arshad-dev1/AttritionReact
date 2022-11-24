@@ -2,7 +2,7 @@ import {
   defaultFont,
   primaryColor,
   dangerColor
-} from "core/resources/reactcss/appContainerStyle.jsx";
+} from "./appContainerStyle.jsx";
 import tooltipStyle from "core/resources/reactcss/tooltipStyle.jsx";
 import checkboxAdnRadioStyle from "core/resources/reactcss/checkboxAdnRadioStyle.jsx";
 const tasksStyle = {

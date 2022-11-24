@@ -6,7 +6,7 @@ import {
   primaryCardHeader,
   roseCardHeader,
   lightCardHeader
-} from "core/resources/reactcss/appContainerStyle.jsx";
+} from "../appContainerStyle.jsx";
 const cardHeaderStyle = {
   cardHeader: {
     padding: "0.75rem 1.25rem",

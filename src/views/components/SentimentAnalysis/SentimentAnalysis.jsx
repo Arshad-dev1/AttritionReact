@@ -6,16 +6,16 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import Divider from "@material-ui/core/Divider";
 // core components
-import GridItem from "core/components/Grid/GridItem.jsx";
-import GridContainer from "core/components/Grid/GridContainer.jsx";
-import Card from "core/components/Card/Card.jsx";
-import CardHeader from "core/components/Card/CardHeader.jsx";
-import CardBody from "core/components/Card/CardBody.jsx";
+import GridItem from "../../../core/components/Grid/GridItem.jsx";
+import GridContainer from "../../../core/components/Grid/GridContainer.jsx";
+import Card from "../../../core/components/Card/Card.jsx";
+import CardHeader from "../../../core/components/Card/CardHeader.jsx";
+import CardBody from "../../../core/components/Card/CardBody.jsx";
 import WordCloud from "react-d3-cloud";
-import { gaugeChart } from "settings/chartsettings.jsx";
+import { gaugeChart } from "../../../settings/chartsettings.jsx";
 import { DiscreteColorLegend } from "react-vis";
 import axios from "axios";
-import { config } from "settings/envconfig.js";
+import { config } from "../../../settings/envconfig.js";
 
 const styles = {
   cardCategoryWhite: {

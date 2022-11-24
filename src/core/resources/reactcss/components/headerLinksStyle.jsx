@@ -1,9 +1,9 @@
 import {
   defaultFont,
   dangerColor
-} from "core/resources/reactcss/appContainerStyle.jsx";
+} from "../appContainerStyle.jsx";
 
-import dropdownStyle from "core/resources/reactcss/dropdownStyle.jsx";
+import dropdownStyle from "../dropdownStyle.jsx";
 
 const headerLinksStyle = theme => ({
   ...dropdownStyle(theme),
