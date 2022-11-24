@@ -8,13 +8,13 @@ import "perfect-scrollbar/css/perfect-scrollbar.css";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 // core components
-import Header from "../src/core/components/Header/Header.jsx";
-import Footer from "../src/core/components/Footer/Footer.jsx";
-import Sidebar from "../src/core/components/Sidebar/Sidebar.jsx";
-import appRoutes from "../src/routes/appRoute.jsx";
-import containerLayoutStyle from "../src/core/resources/reactcss/layouts/containerLayoutStyle.jsx";
+import Header from "core/components/Header/Header.jsx";
+import Footer from "core/components/Footer/Footer.jsx";
+import Sidebar from "core/components/Sidebar/Sidebar.jsx";
+import appRoutes from "routes/appRoute.jsx";
+import containerLayoutStyle from "core/resources/reactcss/layouts/containerLayoutStyle.jsx";
 
-import image from "../src/core/resources/img/sidebar_logo.jpg";
+import image from "core/resources/img/sidebar_logo.jpg";
 // import logo from "core/resources/img/reactlogo.png";
 
 const switchRoutes = (

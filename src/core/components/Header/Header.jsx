@@ -11,9 +11,9 @@ import Hidden from "@material-ui/core/Hidden";
 import Menu from "@material-ui/icons/Menu";
 // core components
 import HeaderLinks from "./HeaderLinks.jsx";
-import Button from "../src/core/components/CustomButtons/Button.jsx";
+import Button from "core/components/CustomButtons/Button.jsx";
 
-import headerStyle from "../src/core/resources/reactcss/components/headerStyle.jsx";
+import headerStyle from "core/resources/reactcss/components/headerStyle.jsx";
 
 function Header({ ...props }) {
   function makeBrand() {

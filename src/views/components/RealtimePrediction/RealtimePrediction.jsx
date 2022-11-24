@@ -11,15 +11,15 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Tooltip from "@material-ui/core/Tooltip";
 import Fab from "@material-ui/core/Fab";
 // core components
-import GridItem from "../src/core/components/Grid/GridItem.jsx";
-import GridContainer from "../src/core/components/Grid/GridContainer.jsx";
-import Card from "../src/core/components/Card/Card.jsx";
-import CardHeader from "../src/core/components/Card/CardHeader.jsx";
-import CardBody from "../src/core/components/Card/CardBody.jsx";
-import Snackbar from "../src/core/components/Snackbar/Snackbar.jsx";
+import GridItem from "core/components/Grid/GridItem.jsx";
+import GridContainer from "core/components/Grid/GridContainer.jsx";
+import Card from "core/components/Card/Card.jsx";
+import CardHeader from "core/components/Card/CardHeader.jsx";
+import CardBody from "core/components/Card/CardBody.jsx";
+import Snackbar from "core/components/Snackbar/Snackbar.jsx";
 import axios from "axios";
-import { config } from "../src/settings/envconfig.js";
-import dashboardStyle from "../src/core/resources/reactcss/views/dashboardStyle.jsx";
+import { config } from "settings/envconfig.js";
+import dashboardStyle from "core/resources/reactcss/views/dashboardStyle.jsx";
 
 const allowedForEdit = [
   "ENVIRONMENTSATISFACTION",

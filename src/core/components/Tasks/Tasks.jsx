@@ -14,7 +14,7 @@ import Edit from "@material-ui/icons/Edit";
 import Close from "@material-ui/icons/Close";
 import Check from "@material-ui/icons/Check";
 // core components
-import tasksStyle from "../src/core/resources/reactcss/components/tasksStyle.jsx";
+import tasksStyle from "core/resources/reactcss/components/tasksStyle.jsx";
 
 class Tasks extends React.Component {
   state = {

@@ -6,8 +6,8 @@ import Hidden from "@material-ui/core/Hidden";
 // @material-ui/icons
 import Person from "@material-ui/icons/Person";
 // core components
-import Button from "../src/core/components/CustomButtons/Button.jsx";
-import headerLinksStyle from "../src/core/resources/reactcss/components/headerLinksStyle.jsx";
+import Button from "core/components/CustomButtons/Button.jsx";
+import headerLinksStyle from "core/resources/reactcss/components/headerLinksStyle.jsx";
 
 class HeaderLinks extends React.Component {
   state = {

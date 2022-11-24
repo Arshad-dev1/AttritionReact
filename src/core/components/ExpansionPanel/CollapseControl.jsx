@@ -7,8 +7,8 @@ import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import ChartistGraph from "react-chartist";
-import CardHeader from "../src/core/components/Card/CardHeader.jsx";
-import { lineChart, distributeBarChart } from "../src/settings/chartsettings.jsx";
+import CardHeader from "core/components/Card/CardHeader.jsx";
+import { lineChart, distributeBarChart } from "settings/chartsettings.jsx";
 
 const styles = theme => ({
   root: {
