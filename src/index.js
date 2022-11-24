@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { createBrowserHistory } from "history";
 import { Router, Route, Switch } from "react-router-dom";
-import "core/resources/css/app-container.css";
-import indexRoutes from "routes/index.jsx";
+import "./core/resources/css/app-container.css";
+import indexRoutes from "./routes/index.jsx";
 
 const hist = createBrowserHistory();
 
