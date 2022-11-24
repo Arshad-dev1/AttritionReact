@@ -10,7 +10,7 @@ import Input from "@material-ui/core/Input";
 import Clear from "@material-ui/icons/Clear";
 import Check from "@material-ui/icons/Check";
 // core components
-import customInputStyle from "core/resources/reactcss/components/customInputStyle.jsx";
+import customInputStyle from "../src/core/resources/reactcss/components/customInputStyle.jsx";
 
 function CustomInput({ ...props }) {
   const {

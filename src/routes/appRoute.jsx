@@ -5,11 +5,11 @@ import Sentiment from "@material-ui/icons/GraphicEq";
 import Assessment from "@material-ui/icons/Assessment";
 import SettingsInputComponent from "@material-ui/icons/SettingsInputComponent";
 // components/views
-import DashboardPage from "views/components/Dashboard/Dashboard.jsx";
-import SentimentAnalysis from "views/components/SentimentAnalysis/SentimentAnalysis.jsx";
-import Segments from "views/components/Segments/Segments.jsx";
-import MoraleCheckSurvey from "views/components/Survey/MoraleCheckSurvey.jsx";
-import RealtimePrediction from "views/components/RealtimePrediction/RealtimePrediction.jsx";
+import DashboardPage from "../src/views/components/Dashboard/Dashboard.jsx";
+import SentimentAnalysis from "../src/views/components/SentimentAnalysis/SentimentAnalysis.jsx";
+import Segments from "../src/views/components/Segments/Segments.jsx";
+import MoraleCheckSurvey from "../src/views/components/Survey/MoraleCheckSurvey.jsx";
+import RealtimePrediction from "../src/views/components/RealtimePrediction/RealtimePrediction.jsx";
 
 const appRoutes = [
   {

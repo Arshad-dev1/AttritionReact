@@ -4,8 +4,8 @@ import PropTypes from "prop-types";
 import Star from "@material-ui/icons/Star";
 import StarBorder from "@material-ui/icons/StarBorder";
 import Checkbox from "@material-ui/core/Checkbox";
-import GridItem from "core/components/Grid/GridItem.jsx";
-import GridContainer from "core/components/Grid/GridContainer.jsx";
+import GridItem from "../src/core/components/Grid/GridItem.jsx";
+import GridContainer from "../src/core/components/Grid/GridContainer.jsx";
 
 class StarRatingComponent extends React.Component {
   state = {

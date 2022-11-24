@@ -4,15 +4,15 @@ import PropTypes from "prop-types";
 import withStyles from "@material-ui/core/styles/withStyles";
 import { DiscreteColorLegend } from "react-vis";
 // core components
-import GridItem from "core/components/Grid/GridItem.jsx";
-import GridContainer from "core/components/Grid/GridContainer.jsx";
-import Card from "core/components/Card/Card.jsx";
-import CardHeader from "core/components/Card/CardHeader.jsx";
-import CardBody from "core/components/Card/CardBody.jsx";
-import { stackChart } from "settings/chartsettings.jsx";
+import GridItem from "../src/core/components/Grid/GridItem.jsx";
+import GridContainer from "../src/core/components/Grid/GridContainer.jsx";
+import Card from "../src/core/components/Card/Card.jsx";
+import CardHeader from "../src/core/components/Card/CardHeader.jsx";
+import CardBody from "../src/core/components/Card/CardBody.jsx";
+import { stackChart } from "../src/settings/chartsettings.jsx";
 // react plugin for creating charts
 import ChartistGraph from "react-chartist";
-import dashboardStyle from "core/resources/reactcss/views/dashboardStyle.jsx";
+import dashboardStyle from "../src/core/resources/reactcss/views/dashboardStyle.jsx";
 import CircularProgressbar from "react-circular-progressbar";
 
 class AccountCardComponent extends React.Component {

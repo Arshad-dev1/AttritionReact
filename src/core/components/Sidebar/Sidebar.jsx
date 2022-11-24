@@ -12,8 +12,8 @@ import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import Icon from "@material-ui/core/Icon";
 // core components
-import HeaderLinks from "core/components/Header/HeaderLinks.jsx";
-import sidebarStyle from "core/resources/reactcss/components/sidebarStyle.jsx";
+import HeaderLinks from "../src/core/components/Header/HeaderLinks.jsx";
+import sidebarStyle from "../src/core/resources/reactcss/components/sidebarStyle.jsx";
 
 const Sidebar = ({ ...props }) => {
   // verifies if routeName is the one active (in browser input)

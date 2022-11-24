@@ -19,18 +19,18 @@ import ExpandLessRounded from "@material-ui/icons/ExpandLessRounded";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import { ContinuousColorLegend, DiscreteColorLegend } from "react-vis";
 // core components
-import GridItem from "core/components/Grid/GridItem.jsx";
-import GridContainer from "core/components/Grid/GridContainer.jsx";
-import Card from "core/components/Card/Card.jsx";
-import CardHeader from "core/components/Card/CardHeader.jsx";
-import CardIcon from "core/components/Card/CardIcon.jsx";
-import CardBody from "core/components/Card/CardBody.jsx";
-import CardFooter from "core/components/Card/CardFooter.jsx";
-import CollapseControl from "core/components/ExpansionPanel/CollapseControl.jsx";
-import { barChart, doughnutChart } from "settings/chartsettings.jsx";
-import dashboardStyle from "core/resources/reactcss/views/dashboardStyle.jsx";
+import GridItem from "../src/core/components/Grid/GridItem.jsx";
+import GridContainer from "../src/core/components/Grid/GridContainer.jsx";
+import Card from "../src/core/components/Card/Card.jsx";
+import CardHeader from "../src/core/components/Card/CardHeader.jsx";
+import CardIcon from "../src/core/components/Card/CardIcon.jsx";
+import CardBody from "../src/core/components/Card/CardBody.jsx";
+import CardFooter from "../src/core/components/Card/CardFooter.jsx";
+import CollapseControl from "../src/core/components/ExpansionPanel/CollapseControl.jsx";
+import { barChart, doughnutChart } from "../src/settings/chartsettings.jsx";
+import dashboardStyle from "../src/core/resources/reactcss/views/dashboardStyle.jsx";
 import axios from "axios";
-import { config } from "settings/envconfig.js";
+import { config } from "../src/settings/envconfig.js";
 import CircularProgressbar from "react-circular-progressbar";
 
 class Dashboard extends React.Component {
